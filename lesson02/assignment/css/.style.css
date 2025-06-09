@@ -1,0 +1,49 @@
+:root {
+  --light-grey: #f5f5f5;
+  --dark-grey: #656565;
+}
+
+/* -TOP- */
+
+main {
+  /* TODO: Replace with actual values */
+  width: 90px;
+  height: 90px;
+}
+
+.rolodex-card {
+  display: flex;
+}
+
+/* IDENTITY */
+
+.profile > .identity {
+}
+
+h2 {
+  color: var(--dark-grey);
+}
+h3 {
+  color: var(--light-grey);
+}
+
+/* DETAILS */
+
+.profile > .details {
+}
+
+dt {
+  color: var(--dark-grey);
+}
+
+dd {
+  color: var(--light-grey);
+}
+
+.link-text {
+  color: var(--light-grey);
+}
+
+dt::after {
+  content: ": ";
+}
