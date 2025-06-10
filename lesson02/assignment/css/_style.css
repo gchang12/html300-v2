@@ -1,16 +1,12 @@
-// Import partials here
-@import 'base.normalize';
-@import 'settings.variables';
-@import 'settings.responsive';
-@import 'components.content';
-
-$light-grey: #f6f5f6; /* inner profile detail box */
-$dark-grey: #d3d3d3; /* margins */
-$very-dark-grey: #676767; /* For header text */
+:root {
+  --light-grey: #f6f5f6; /* inner profile detail box */
+  --dark-grey: #d3d3d3; /* margins */
+  --very-dark-grey: #676767; /* For header text */
+}
 
 /* -TOP- */
 body {
-  color: var($very-dark-grey);
+  color: var(--very-dark-grey);
   margin: 0;
 }
 
@@ -27,7 +23,7 @@ main {
   background-color: white;
   padding: 3rem;
   padding-left: 1rem;
-  border-color: var($dark-grey);
+  border-color: var(--dark-grey);
   border-width: 4rem;
   border-style: solid;
   border-radius: 0.5rem;
@@ -59,7 +55,7 @@ h3 {
 /* DETAILS */
 
 .profile.details {
-  background-color: var($light-grey);
+  background-color: var(--light-grey);
   /* width: 50rem; */
   padding: 2rem;
   width: 100%;
